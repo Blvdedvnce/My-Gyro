@@ -1,0 +1,902 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    width: 90%;
+    margin: auto;
+}
+
+.hed {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center; 
+    height: 60px;
+}
+.knopka{
+    width: 183px;
+    height: 43px;
+    background-color: #FFA019;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loat{
+    text-decoration: none;
+    color: black;
+}
+.knopka:hover{
+    background-color: #be7919;
+    transition: 0.3s;
+}
+.nav{
+    position: relative;
+}
+.menu {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.menu-item {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.deko{
+    display: flex;
+    align-items: center;
+}
+.poka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m-menu{
+    display: none;
+}
+.name{
+    margin: 0;
+    margin-right: auto;
+    font-size: 30px;
+}
+.fon{
+    display: inline-block;
+    position: relative;
+}
+.backfon{
+    width: 100%;
+
+}
+.text-fon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    max-width: 690px;
+}
+.knopka-fon{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 0px;
+    
+}
+.knopka-fon:hover{
+    background-color: rgb(97, 97, 97);
+    transition: 0.3s;
+}
+.nach{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    padding-top: 50px;
+    padding-bottom: 10px ;
+    font-weight: lighter;
+}
+.tyda{
+    margin-left: auto;
+}
+.asort{
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+.item-asort{
+    margin-left: 100px;
+}
+.photo-asort{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.kryt{
+    display: flex;
+    margin-left: 120px;
+}
+.asortiment{
+    display: flex;
+}
+.Onas{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+.podpis{
+    width: 100%;
+    height: 94px;
+    background: #FFA019;
+    display: flex;
+}
+.osninf{
+    display: flex;
+    align-items: center;
+}
+.rassilk{
+    width: 295px;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 20px;
+    font:lighter;
+}
+.imya{
+    width: 250px;
+    height: 50px;
+    background-color: #FFA019;
+    text-decoration: white;
+    border-color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.podpis-knopka{
+    width: 250px;
+    height: 58px;
+    margin-left: 20px;
+    border: 0;
+    cursor: pointer;
+}
+.podpis-knopka:hover{
+    background-color: rgb(70, 67, 67);
+    transition: 0.2s;
+}
+.minus{
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    font-weight: lighter;
+    white-space: nowrap;
+}
+.item-minus::before{
+    content: '- ';
+}
+.all{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.item-plus{
+    font-size: 20px;
+}
+.item-plus::before{
+    content: '+ ';
+}
+.plus{
+    list-style: none;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.plus-item{
+    margin-left: 150px;
+}
+.preim{
+    font-size: 19px;
+    font-weight: lighter;
+}
+.katalog{
+    width: 100%;
+    height: 574px;
+    background-color: #EEEAEA;
+}
+.borak{
+    display: flex;
+    align-items: center;
+}
+.shop{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.otstypie{
+    margin-left: auto;
+}
+.item-shop1{
+    margin-left: 20px;
+    height: 30px;
+    width: 38px;
+    background-color: #FFA019;
+    border-radius: 10px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-shop{
+    margin-left: 20px;
+}
+.nacha{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 10px ;
+    font-weight: lighter;
+}
+.rectangl-1{
+    width: 261px;
+    height: 360px;
+    background: #FFF;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.blocks{
+    display: flex;
+}
+.sigvey{
+    width: 78px;
+    height: 30px;
+    background-color: #FFA019;
+    border-radius: 0 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+}
+.giros{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.infogir{
+    padding-left: 18px;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.cena{
+    padding-left: 18px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.giros2{
+    width: 100%;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.layout{
+    width: 359px;
+    height: 156px;
+    background-color: #EEEAEA;
+    margin: auto;
+    margin-left: 10px;
+    display: flex;
+}
+.ivan{
+    width: 45%;
+    height: 100%;
+}
+.dlin{
+    display: flex;
+}
+.sigvey2{
+    width: 112px;
+    height: 30px;
+    background-color: #FFA019;
+    border-radius: 0 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+}
+.sigvey3{
+    width: 158px;
+    height: 30px;
+    background-color: #FFA019;
+    border-radius: 0 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+}
+.fio{
+    font-size: 20px;
+    padding-left: 20px;
+    display: flex;
+    margin: 0;
+    padding-top: 20px;
+}
+.dolj{
+    padding-left: 20px;
+    margin: 0;
+    font-style: italic;
+    font-size: 12px;
+}
+.info-cons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.pis-cons{
+    width: 84px;
+    height: 30px;
+    background-color: #FFA019;
+    border-radius: 10px;
+    border: none;
+    color: #FFF;
+    font-size: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+.pis-cons:hover{
+    background-color: #ce8217;
+    transition: 0.5s;
+}
+.brend{
+    margin-top: 50px;
+    width: 100%;
+    height: 194px;
+    background-color: #F2EAEA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name-brend{
+    font-size: 50px;
+    color: #9B9B9B;
+    word-spacing: 20px;
+}
+.info-gir{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.polez-inf{
+    display: flex;
+    justify-content: space-between;
+}
+.image-block {
+    position: relative;
+    width: 260px;
+    height: 263px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.image-block svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-block p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.image-block:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.podval{
+    margin-top: 100px;
+    width: 100%;
+    height: 270px;
+    background-color: #F2EAEA;
+}
+.info1{
+    padding-top: 50px;
+    color:#8191A6;
+    font-size: 12px;
+}
+.info2{
+    color:#8191A6;
+    font-size: 12px;
+}
+.final-onas{
+    display: flex;
+    padding-top: 40px;
+}
+.final-onas ul{
+    list-style: none;
+}
+.total{
+    text-decoration: none;
+    color: #8191A6;
+}
+.bons{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    white-space: nowrap;
+}
+.final-onas li{
+    font-size: 12px;
+    color: #8191A6;
+    padding-top: 10px;
+}
+.infogir2{
+    padding-left: 18px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.infogir3{
+    padding-left: 18px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.infogir4{
+    padding-left: 18px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+@media (max-width: 1420px){
+    .name-brend{
+        font-size: 40px;
+    }
+    .knopka-fon{
+        margin: 20px;
+    }
+}
+@media(max-width:1200px) {
+    .name-brend{
+        font-size: 35px;
+    }
+    .knopka-fon{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 1150px){
+    .name-brend{
+        font-size: 30px;
+    }
+    .rectangl-1{
+        width: 20%;
+    }
+    .giros{
+        width: 90%;
+        padding-left: 20px;
+    }
+    .giros2{
+        width: 80%;
+        padding-bottom: 5px;
+        padding-left: 20px;
+    }
+    .infogir2{
+        padding-top: 5px;
+    }
+    .infogir4{
+        padding-top: 20px;
+    }
+}
+@media (max-width: 1050px){
+    .kryt{
+        margin-left: 70px;
+    }
+    .item-asort{
+        margin-left: 50px;
+    }
+    .name{
+        white-space: nowrap;
+    }
+    .knopka-fon{
+        margin: 50px;
+        margin-left: 0;
+    }
+    .plus-item{
+        white-space: nowrap;
+        margin-left: 90px;
+    }
+    .giros{
+        padding-left: 10px;
+    }
+}
+@media (max-width:1000px){
+    .name{
+        font-size: 25px;
+        white-space: nowrap;
+    }
+    .menu-item{
+        margin-left: 20px;
+    }
+    .knopka-fon{
+        margin: 50px;
+        margin-left: 0;
+    }
+    .name-brend{
+        font-size: 25px;
+    }
+    .brend{
+        height: auto;
+    }
+}
+@media(max-width:900px){
+    .knopka-fon{
+        margin-top: 80px;
+    }
+    .plus{
+        padding: 0;
+    }
+    .plus-item{
+        margin-left: 70px;
+    }
+}
+@media(max-width: 850px){
+    .image-block p{
+        font-size: 12px;
+    }
+    .name-brend{
+        word-spacing: 10px;
+    }
+    .final-onas ul{
+        padding-left: 10px;
+    }
+    .layout{
+        margin-left: 30px;
+    }
+    .plus-item{
+        margin-left: 20px;
+    }
+    .rassilk{
+        font-size: 15px;
+    }
+    .kryt{
+        margin-left: 40px;
+    }
+    .menu{
+        font-size: 12px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .minus{
+        display: block;
+    }
+}
+@media (max-width: 800px){
+    .podpis{
+        height: auto;
+    }
+    .kryt{
+        margin-left: 20px;
+    }
+    .item-asort{
+        margin-left: 30px;
+    }
+    .sigvey3{
+        width: auto;
+    }
+    .rectangl-1{
+        height: auto;
+    }
+}
+@media(max-width:700px){
+    .final-onas{
+        display: block;
+    }
+    .podval{
+        height: auto;
+    }
+    .ivan {
+        width: 45%;
+    }
+    .dlin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .layout {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .fio {
+        font-size: 20px;
+        padding-left: 20px;
+        display: flex;
+        margin: 0;
+        padding-top: 20px;
+    }
+    .dolj {
+        padding-left: 20px;
+        margin: 0;
+        font-style: italic;
+        font-size: 12px;
+    }
+    .info-cons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .pis-cons {
+        width: 84px;
+        height: 30px;
+        background-color: #FFA019;
+        border-radius: 10px;
+        border: none;
+        color: #FFF;
+        font-size: 10px;
+        margin: 20px;
+        cursor: pointer;
+    }
+    .pis-cons:hover {
+        background-color: #ce8217;
+        transition: 0.5s;
+    }
+    .name-brend{
+        font-size: 20px
+    }
+    .text-fon{
+        font-size: 15px;
+    }
+    .knopka-fon{
+        margin-top: 50px;
+    }
+    .all{
+        flex-direction: column;
+    }
+    .minus{
+        margin-left: 20px;
+    }
+    .blocks{
+        flex-direction: column;
+    }
+    .katalog{
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .rectangl-1{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 600px){
+    .osninf{
+        flex-direction: column;
+    }
+    .imya{
+        margin-bottom: 10px;
+    }
+    .podpis-knopka{
+        margin-bottom: 10px;
+    }
+    .menu{
+        font-size: 10px;
+    }
+    .menu-item{
+        margin-left: 5px;
+    }
+    .kryt{
+        margin-left: 0;
+    }
+    .item-asort{
+        margin-left: 0px;
+    }
+    .knopka-fon{
+        height: auto;
+    }
+    .item-shop1{
+        margin-left: 10px;
+    }
+    .item-shop{
+        margin-left: 10px;
+    }
+    .sigvey3{
+        font-size: 10px;
+    }
+    .sigvey2{
+        font-size: 10px;
+    }
+    .sigvey{
+        font-size: 10px;
+    }
+    .giros{
+        width: 100%;
+    }
+    .infogir{
+        font-size: 12px;
+    }
+    .cena{
+        font-size: 13px;
+    }
+    .infogir2{
+        font-size: 12px;
+    }
+    .infogir3{
+        font-size: 12px;
+    }
+    .infogir4{
+        font-size: 12px;
+    }
+    .giros2{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .menu{
+        flex-direction: column;
+        background-color: #ce8217;
+        width: 50%;
+        display: block;
+        border-radius: 10px;
+        display: none;
+    }
+    .menu-item{
+        margin-top: 5px;
+        margin-right: auto;
+    }
+    .m-menu{
+        display: block;
+        background-color: transparent;
+        border: none;
+        width: 200px;
+        height: 40px;
+        margin-left: 0px;
+        cursor: pointer;
+        background-color: #8191A6;
+    }
+    .is-open{
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0)
+    }
+    .hed{
+        height: auto;
+    }
+}
+@media (max-width: 500px){
+    .sigvey2{
+        width: 70%;
+    }
+    .shop{
+        display: block;
+    }
+    .bons{
+        display: block;
+    }
+    .layout{
+        margin-left: 0px;
+    }
+    .name-brend{
+        font-size: 15px;
+        word-spacing: 1px;
+    }
+    .polez-inf{
+        display: block;
+    }
+    .image-block p{
+        font-size: 14px;
+    }
+    .knopka-fon{
+        margin-top: 60px;
+    }
+    .knopka{
+        width: 70px;
+        font-size: 12px;
+    }
+    .brend{
+        height: 120px;
+    }
+    .infogir{
+        padding-left: 0px;
+    }
+    .infogir2{
+        padding-left: 0px;
+    }
+    .infogir3{
+        padding-left: 0px;
+    }
+    .cena{
+        padding-left: 5px;
+    }
+    .infogir4{
+        padding-left: 0px;
+    }
+    .giros2{
+        width: 110px;
+    }
+}
+@media (max-width: 400px){
+    .name{
+        font-size: 15px;
+    }
+    .poka{
+        display: block;
+    }
+    .kryt{
+        width: 20%;
+    }
+    .asort{
+        padding-left:  0px;
+    }
+    .item-asort{
+        margin-left: 10px;
+    }
+    .tyda{
+        font-size: 20px;
+    }
+    .text-fon{
+        font-size: 10px;
+    }
+    .knopka-fon{
+        margin-top: 40px;
+    }
+    .name-brend{
+        font-size: 12px;
+    }
+    .giros{
+        width: 100px;
+    }
+    .giros2{
+        width: 100px;
+        padding-left: 0px;
+    }
+    .infogir{
+        padding-left: 0px;
+    }
+    .infogir2{
+        padding-left: 0px;
+    }
+    .infogir3{
+        padding-left: 0px;
+    }
+    .cena{
+        padding-left: 5px;
+    }
+    .infogir4{
+        padding-left: 0px;
+    }
+    .sigvey{
+        width: 50%;
+    }
+    .sigvey2{
+        width: 70%;
+        font-size: 8px;
+    }
+    .sigvey3{
+        width: 90%;
+        font-size: 8px;
+    }
+}
